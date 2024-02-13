@@ -12,9 +12,6 @@ let package = Package(
     products: [
         .library(name: "PrismSDK", targets: ["PrismSDK"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/amplitude/Amplitude-Swift.git", exact: "0.4.3"),
-    ],
     targets: [
         .binaryTarget(name: "PrismSDK", path: "PrismSDK.xcframework.zip"),
     ]
