@@ -4,15 +4,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "PrismKit",
+    name: "PrismSDK",
     defaultLocalization: "en",
     platforms: [
-        .iOS(.v14)
+        .iOS(.v15),
     ],
     products: [
-        .library(name: "PrismKit", targets: ["PrismKit"]),
+        .library(name: "PrismSDK", targets: ["PrismSDK"]),
+    ],
+    dependencies: [
+        .package(url: "https://github.com/amplitude/Amplitude-Swift.git", exact: "0.4.3"),
     ],
     targets: [
-        .binaryTarget(name: "PrismKit", path: "PrismKit.xcframework.zip")
+        .binaryTarget(name: "PrismSDK", path: "PrismSDK.xcframework.zip"),
     ]
 )

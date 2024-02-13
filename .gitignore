@@ -1,5 +1,7 @@
-/.DS_Store
-/.swiftpm/xcode/package.xcworkspace/xcuserdata/anthony.xcuserdatad/UserInterfaceState.xcuserstate
-/.build
-/.swiftpm
-/.vscode
+.DS_Store
+.vscode
+
+# Swift Package Manager
+Package.resolved
+**/.build
+**/.swiftpm
