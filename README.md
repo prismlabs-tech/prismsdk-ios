@@ -1,18 +1,16 @@
-# PrismSDK
-
-- [PrismSDK](#prismsdk)
-  - [Introduction](#introduction)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-    - [Swift Package Manager](#swift-package-manager)
-      - [Manual Installation](#manual-installation)
-
-## Introduction
-
 [![Platforms](https://img.shields.io/badge/Platforms-iOS-yellowgreen?style=flat-square)](https://img.shields.io/badge/Platforms-macOS_iOS_tvOS_watchOS_vision_OS_Linux_Windows_Android-Green?style=flat-square)
 
-The Prism Body Mapping Bundle for iOS developers streamlines the integration process between your existing application and Prism Labs’ body mapping service. While using your phone’s front-facing camera, you can guide users through a simple and intuitive body mapping process.
-Additionally, **the Prism SDK communicates with the Prism-hosted API on your behalf, allowing you to create new users, submit scan data capture, and fetch results. Finally, Prism’s CV Pipeline transforms captured images into precise body models and delivers valuable insights about your body’s metrics.
+# PrismSDK
+
+This SDK enables the users to integrate an existing application with the PrismLabs’ body mapping service. While using your phone’s front-facing camera, you can guide users through a simple and intuitive body mapping process.
+
+Additionally, the `PrismSDK` communicates with the Prism-hosted API on your behalf, allowing you to create new users, submit scan data capture, and fetch results. 
+
+Finally, Prism’s Pipeline transforms captured images into precise body models and delivers valuable insights about your body’s metrics.
+
+### SwiftUI example of using package
+
+[PrismSDK exmaple](https://github.com/prismlabs-tech/prismsdk-example-ios)
 
 ## Prerequisites
 
@@ -42,3 +40,7 @@ dependencies: [
    - Click Add Other and then Add Files
    - Choose the PrismSDK XCFramework file and click Open
 3. Change the Embed option next to the framework to Do Not Embed
+
+## License
+
+This project is licensed under the Prismlabs License - see the LICENSE file for details.
